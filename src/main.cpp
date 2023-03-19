@@ -11,7 +11,7 @@
  * Brings cocos2d and all Geode namespaces 
  * to the current scope.
  */
-USE_GEODE_NAMESPACE();
+using namespace geode::prelude;
 
 //the space between individual ints to patch
 const unsigned char node_offset = 0x1B; 
